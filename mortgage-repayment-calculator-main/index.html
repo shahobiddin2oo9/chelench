@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="conatiner">
+      <section>
+        <div class="section_nav">
+          <div class="main_nav">
+            <h1>Mortgage Calculator</h1>
+            <a href="#">Clear All</a>
+          </div>
+          <div class="main_form">
+            <form action="">
+              <div class="form_input">
+                <label for="Amount">Mortgage Amount</label>
+                <input required type="text" id="Amount" placeholder="300,000" />
+                <div class="form_cards"><p>£</p></div>
+              </div>
+              <div class="form_input form_input2">
+                <div class="form_input2_1">
+                  <label for="Term">Mortgage Term</label>
+                  <input required type="text" id="Term" placeholder="25" />
+                  <div class="form_cards2_1"><p>years</p></div>
+                </div>
+                <div class="form_input2_2">
+                  <label for="Rate">Interest Rate</label>
+                  <input required type="text" id="Rate" placeholder="5.25" />
+                  <div class="form_cards2_2"><p>%</p></div>
+                </div>
+              </div>
+              <div class="main_radio">
+                <legend>Mortgage Team</legend>
+                <div class="main_radio_div1 vd">
+                  <input
+                    required
+                    type="radio"
+                    id="huey"
+                    name="drone"
+                    value="huey"
+                    checked
+                    class="radio-btn"
+                  />
+                  <label for="huey">Repayment</label>
+                </div>
+                <div class="main_radio_div2 vd">
+                  <input
+                    required
+                    type="radio"
+                    id="dewey"
+                    name="drone"
+                    value="dewey"
+                    class="radio-btn"
+                  />
+                  <label for="dewey">Interest Only</label>
+                </div>
+              </div>
+              <div class="main-btn">
+                <button type="submit">
+                  <img src="./assets/images/icon-calculator.svg" alt="" />
+                  <p>Calculate <span>Repayments</span></p>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="section_cardsImg">
+          <h1>Your results</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
+            provident. Accusantium reprehenderit deserunt cupiditate, similique
+            architecto harum asperiores
+          </p>
+          <div class="section_cardsImg_card">
+            <p>Your monthly repayments</p>
+            <h1>£1,797.74</h1>
+            <hr />
+            <h5>Total you'll over the term</h5>
+            <h2>£539,322.94</h2>
+          </div>
+        </div>
+        <div class="section_cardsImg2">
+          <img src="./assets/images/illustration-empty.svg" alt="NO img?" />
+          <h1>Results shown here</h1>
+          <p>
+            Complete the form and click calculator repayments to see what your
+            monthly repayments would be
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
